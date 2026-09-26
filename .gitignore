@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Raw / temporary video outputs
+*_raw.mp4
+temp/
+tmp/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Large/raw datasets
+datasets/
+data/
+models/
+
+# Kaggle working artifacts not intended for GitHub
+working/
+runs/
+
+# Python caches
+.cache/
